@@ -1,4 +1,25 @@
-section {
+h1 {
+  font-family: degular, sans-serif;
+  font-size: 50px;
+}
+ul {
+  font-family: degular, sans-serif;
+  list-style: none;
+  font-size: 30px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-family: degular, sans-serif;
+}
+a:hover {
+  color: #FF00F5;
+}
+p {
+  font-family: degular, sans-serif;
+}
+.home {
   text-align: center;
   margin: auto;
   margin-top: 150px;
@@ -7,23 +28,11 @@ section {
   border-radius: 25px;
   border: 2px dashed black;
 }
-h1 {
-  font-family: degular, sans-serif;
-  font-size: 50px;
-  padding: 10px;
-  padding-top: 20px;
-}
-ul {
-  font-family: degular, sans-serif;
-  list-style: none;
-  font-size: 30px;
-  padding: 10px;
-  padding-bottom: 20px;
-}
-a {
-  text-decoration: none;
-  color: blue;
-}
-a:hover {
-  color: #FF00F5;
+.about {
+  margin: auto;
+  margin-top: 150px;
+  width: 400px;
+  background:chartreuse;
+  border-radius: 25px;
+  border: 2px dashed black;
 }
