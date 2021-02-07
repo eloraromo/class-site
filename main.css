@@ -25,9 +25,9 @@ p {
   margin: auto;
   margin-top: 150px;
   width: 400px;
-  background:chartreuse;
+  background: chartreuse;
   border-radius: 25px;
-  border: 2px dashed black;
+  border: 3px dashed black;
 }
 .about {
   margin: auto;
@@ -35,5 +35,16 @@ p {
   width: 400px;
   background:chartreuse;
   border-radius: 25px;
-  border: 2px dashed black;
+  border: 3px dashed black;
 }
+.back {
+  margin: 20px;
+  background: chartreuse;
+  border-radius: 25px;
+  display: inline-flex;
+  padding: 10px;
+  border: 2px solid black;
+}
+.back:hover {
+  background: blue;
+  border: 2px solid #FF00F5;
