@@ -1,6 +1,7 @@
 h1 {
   font-family: degular, sans-serif;
   font-size: 50px;
+  color: #FF00F5
 }
 ul {
   font-family: degular, sans-serif;
@@ -27,7 +28,7 @@ p {
   width: 400px;
   background: #D4FF21;
   border-radius: 25px;
-  border: 3px dashed black;
+  border: 6px solid chartreuse;
 }
 .about {
   margin: auto;
@@ -35,7 +36,7 @@ p {
   width: 400px;
   background: #D4FF21;
   border-radius: 25px;
-  border: 3px dashed black;
+  border: 6px solid chartreuse;
 }
 .back {
   margin: 20px;
@@ -43,7 +44,7 @@ p {
   border-radius: 25px;
   display: inline-flex;
   padding: 10px;
-  border: 2px solid black;
+  border: 2px solid chartreuse;
 }
 .back:hover {
   background: blue;
