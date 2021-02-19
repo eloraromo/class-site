@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sky1 {
+  background: rgb(255, 147, 87);
+  height: 100%;
+  width: 100%;
+}
+
+.sky2 {
+  background: rgb(255, 112, 87);
+  height: 100%;
+  width: 100%;
+}
+
+.sky3 {
+  background: rgb(254, 77, 77);
+  height: 100%;
+  width: 100%;
+}
+
+.bottom-container {
+  background: rgb(255, 52, 52);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.building {
+  background: rgb(46, 45, 45);
+  width: 18%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.one {
+  height: 60%;
+}
+
+.two {
+  height: 95%;
+}
+
+.three {
+  height: 75%;
+}
+
+.four {
+  height: 40%;
+}
+
+.five {
+  height: 60%;
+}
+
+.column {
+  width: 15%;
+  height: 100%;
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.light1 {
+  background: rgb(172, 215, 255);
+  width: 100%;
+  height: 10%;
+}
+
+.light2 {
+  background: rgb(172, 215, 255);
+  width: 100%;
+  height: 7%;
+}
+
+.light3 {
+  background: rgb(172, 215, 255);
+  width: 100%;
+  height: 9%;
+}
+
+.light4 {
+  background: rgb(172, 215, 255);
+  width: 100%;
+  height: 17%;
+}
+
+.light5 {
+  background: rgb(172, 215, 255);
+  width: 100%;
+  height: 10%;
+}
