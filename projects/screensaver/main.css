@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+.flex {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgb(174,255,253);
+  background: linear-gradient(0deg, rgba(174,255,253,1) 0%, rgba(247,255,198,1) 50%, rgba(255,220,220,1) 100%);
+}
+
+.stem {
+  width: 2vw;
+  height: 5vw;
+  animation: tall 20s infinite alternate;
+  animation-timing-function: linear;
+}
+
+.leaves {
+  display: flex;
+  height: 5vw;
+  width: 10vw;
+  align-items: flex-end;
+  justify-content: center;
+  animation: box 20s infinite alternate;
+  animation-timing-function: linear;
+}
+
+.leaf1 {
+  width: 6vw;
+  height: 3vw;
+  background: rgb(26, 238, 110);
+  border-radius: 50%;
+  transform: rotate(45deg);
+  animation: grow1 20s infinite alternate;
+  animation-timing-function: linear;
+}
+
+.leaf2 {
+  width: 6vw;
+  height: 3vw;
+  background: rgb(26, 238, 110);
+  border-radius: 50%;
+  transform: rotate(135deg);
+  animation: grow2 20s infinite alternate;
+  animation-timing-function: linear;
+}
+
+/* .orange {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background: orange;
+  margin: 2vw;
+  animation: fruit 20s infinite alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes fruit {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+} */
+
+@keyframes tall {
+  0% {
+    background: rgb(26, 238, 110);
+    height: 5vw;
+    width: 2vw;
+  }
+  50% {
+    background: rgb(75, 59, 45);
+  }
+  100% {
+    background: rgb(75, 59, 45);
+    height: 30vw;
+    width: 10vw;
+  }
+}
+
+@keyframes box {
+  0% {
+    height: 5vw;
+    width: 10vw;
+  }
+  100% {
+    height: 50vw;
+    width: 60vw;
+    transform: translateY(5vw);
+  }
+}
+
+@keyframes grow1 {
+  0% {
+    width: 6vw;
+    height: 3vw;
+  }
+  100% {
+    width: 30vw;
+    height: 30vw;
+    transform: translateX(12vw);
+  }
+}
+
+@keyframes grow2 {
+  0% {
+    width: 6vw;
+    height: 3vw;
+  }
+  100% {
+    width: 30vw;
+    height: 30vw;
+    transform: translateX(-12vw);
+  }
+}
