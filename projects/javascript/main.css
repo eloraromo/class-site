@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  background: black;
+}
+
+body {
+  margin: 20px;
+}
+
+.button {
+  background: rgb(186, 255, 57);
+  padding: 10px;
+  width: 80px;
+}
+
+.button::selection {
+  background: transparent;
+}
+.button:hover {
+  background: rgb(59, 248, 255);
+  cursor: pointer;
+}
+
+#box {
+  height: 100%;
+  width: 400px;
+  background: rgb(255, 243, 130);
+  position: fixed;
+  top: 0;
+  right: -400px;
+  color: rgb(0, 157, 207);
+  font-size: 25px;
+  padding: 25px;
+  transition: transform .5s;
+}
+
+.active {
+  transform: translateX(-400px);
+}
