@@ -11,6 +11,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background: rgba(254,77,77,1);
 }
 
 .top-container {
@@ -21,25 +22,50 @@ body {
 }
 
 .sky1 {
-  background: rgb(255, 147, 87);
+  background: rgb(255, 188, 87);
   height: 100%;
   width: 100%;
 }
 
 .sky2 {
-  background: rgb(255, 112, 87);
+  background: rgb(255, 178, 87);
   height: 100%;
   width: 100%;
 }
 
 .sky3 {
-  background: rgb(254, 77, 77);
+  background: rgb(255, 162, 87);
+  height: 100%;
+  width: 100%;
+}
+
+.sky4 {
+  background: rgb(255, 147, 87);
+  height: 100%;
+  width: 100%;
+}
+
+.sky5 {
+  background: rgb(251, 132, 82);
+  height: 100%;
+  width: 100%;
+}
+
+.sky6 {
+  background: rgb(255, 112, 87);
+  height: 100%;
+  width: 100%;
+}
+
+.sky7 {
+  background: rgb(255, 97, 87);
   height: 100%;
   width: 100%;
 }
 
 .bottom-container {
-  background: rgb(255, 52, 52);
+  background: rgb(172,44,108);
+  background: linear-gradient(0deg, rgba(172,44,108,1) 24%, rgba(254,77,77,1) 100%);
   height: 100%;
   width: 100%;
   display: flex;
@@ -49,7 +75,8 @@ body {
 }
 
 .building {
-  background: rgb(46, 45, 45);
+  background: rgb(83,83,83);
+  background: linear-gradient(90deg, rgba(83,83,83,1) 0%, rgba(38,38,38,1) 100%);
   width: 18%;
   display: flex;
   flex-direction: row;
@@ -87,31 +114,36 @@ body {
 }
 
 .light1 {
-  background: rgb(172, 215, 255);
+  background: rgb(194,246,255);
+  background: linear-gradient(90deg, rgba(194,246,255,1) 0%, rgba(57,212,255,1) 100%);
   width: 100%;
   height: 10%;
 }
 
 .light2 {
-  background: rgb(172, 215, 255);
+  background: rgb(194,246,255);
+  background: linear-gradient(90deg, rgba(194,246,255,1) 0%, rgba(57,212,255,1) 100%);
   width: 100%;
   height: 7%;
 }
 
 .light3 {
-  background: rgb(172, 215, 255);
+  background: rgb(194,246,255);
+  background: linear-gradient(90deg, rgba(194,246,255,1) 0%, rgba(57,212,255,1) 100%);
   width: 100%;
   height: 9%;
 }
 
 .light4 {
-  background: rgb(172, 215, 255);
+  background: rgb(194,246,255);
+  background: linear-gradient(90deg, rgba(194,246,255,1) 0%, rgba(57,212,255,1) 100%);
   width: 100%;
   height: 17%;
 }
 
 .light5 {
-  background: rgb(172, 215, 255);
+  background: rgb(194,246,255);
+  background: linear-gradient(90deg, rgba(194,246,255,1) 0%, rgba(57,212,255,1) 100%);
   width: 100%;
   height: 10%;
 }
