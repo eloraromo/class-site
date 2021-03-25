@@ -67,6 +67,26 @@ img::selection {
   display: block;
 }
 
+.boots {
+  position: absolute;
+  bottom: 4.5%;
+  left: 52.5%;
+}
+
+.plant {
+  position: absolute;
+  bottom: 4.5%;
+  left: 69%;
+}
+
+.plant:hover {
+  cursor: pointer;
+}
+
+.boots:hover {
+  cursor: pointer;
+}
+
 
 @media screen and (max-width:1300px) {
   a {
@@ -112,5 +132,16 @@ img::selection {
   }
   .secret {
     width: 20vw;
+  }
+  .boots {
+    position: absolute;
+    bottom: 8%;
+    left: 52.5%;
+  }
+
+  .plant {
+    position: absolute;
+    bottom: 8%;
+    left: 69%;
   }
 }
