@@ -5,7 +5,7 @@ body {
 h1 {
   font-family: degular, helvetica, sans-serif;
   font-size: 100px;
-  margin: 20px;
+  margin: 0px;
   padding: 10px;
   padding-bottom: 0px;
   color: #FFFFFF;
@@ -13,8 +13,11 @@ h1 {
   text-shadow: 5px 5px 0px #82FBCA;
   letter-spacing: 6px;
   background: #ffa4da;
-  z-index: 2;
+  z-index: 0 ;
   width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 a {
@@ -28,9 +31,10 @@ a:hover {
   color: rgb(255, 8, 0);
 }
 
-img {
-  padding: 10px;
-  margin: auto;
+.blah {
+  border: 6px solid white;
+  -webkit-box-shadow: 5px 5px 14px -4px #000000;
+  box-shadow: 5px 5px 14px -4px #000000;
 }
 
 .header {
@@ -39,33 +43,91 @@ img {
   font-size: 30px;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+#headshot {
+  position: relative;
+  left: 50%;
+  top: 32vh;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  border: 6px solid white;
+  -webkit-box-shadow: 5px 5px 14px -4px #000000;
+  box-shadow: 5px 5px 14px -4px #000000;
 }
 
-.top {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 30%;
-  width: 100%;
+.text {
+  font-family: degular, helvetica, sans-serif;
+  color: #82FBCA;
+  width: 70vw;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background: rgb(73, 73, 73);
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  border: 5px solid white;
 }
 
-.bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 30%;
-  width: 100%;
+ #cred {
+  position: fixed;
+  left: 40px;
+  bottom: 25px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  z-index: 2;
+  line-height: 1;
+ }
+
+#burst-12 {
+     background: #82FBCA;
+     width: 80px;
+     height: 80px;
+     position: fixed;
+     text-align: center;
+     left: 40px;
+     bottom: 40px;
+     z-index: 1px;
+   }
+#burst-12:before,
+#burst-12:after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 80px;
+     width: 80px;
+     background: #82FBCA;
+   }
+#burst-12:before {
+     transform: rotate(30deg);
+   }
+#burst-12:after {
+     transform: rotate(60deg);
+   }
+
+#stars1 {
+  position: fixed;
+  left: 20%;
+  bottom: 40vh;
 }
 
-.photo {
-  width: 400px;
+#stars2 {
+  position: fixed;
+  right: 15%;
+  bottom: 10vh;
+}
+
+#rainbow {
+  position: fixed;
+  right: 25%;
+  bottom: 40vh;
+}
+
+#barbie {
+  position: fixed;
+  left: 30%;
+  bottom: 10vh;
 }
