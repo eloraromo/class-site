@@ -4,59 +4,95 @@
 
 body {
   margin: 3%;
+  background: rgb(144, 238, 255);
 }
 
 #cone {
-  position: relative;
+  position: fixed;
   left: 50vw;
-  top: 50vh;
+  top: 60vh;
   transform: translate(-50%,-50%);
 }
 
 #scoop1 {
-  position: relative;
-  left: -5vw;
-  top: 5vh;
-  transform: translate(-50%,-50%);
-}
-
-#scoop2 {
-  position: relative;
-  left: -5vw;
+  position: fixed;
+  left: 20vw;
   top: 30vh;
   transform: translate(-50%,-50%);
 }
 
+#scoop2 {
+  position: fixed;
+  left: 20vw;
+  top: 70vh;
+  transform: translate(-50%,-50%);
+}
+
 #scoop3 {
-  position: relative;
-  left: -5vw;
-  top: 55vh;
+  position: fixed;
+  left: 80vw;
+  top: 30vh;
   transform: translate(-50%,-50%);
 }
 
 #scoop4 {
-  position: relative;
-  left: -5vw;
-  top: 80vh;
+  position: fixed;
+  left: 80vw;
+  top: 70vh;
   transform: translate(-50%,-50%);
 }
 
 #topping1 {
-
+  position: fixed;
+  left: 19.8vw;
+  top: 24vh;
+  transform: translate(-50%,-50%);
 }
 
 #topping2 {
-
+  position: fixed;
+  left: 79.8vw;
+  top: 64vh;
+  transform: translate(-50%,-50%);
 }
 
 #sprinkle1 {
-
+  position: fixed;
+  left: 80vw;
+  top: 25vh;
+  transform: translate(-50%,-50%);
 }
 
 #sprinkle2 {
-
+  position: fixed;
+  left: 20vw;
+  top: 65vh;
+  transform: translate(-50%,-50%);
 }
 
 #cherry {
+  position: fixed;
+  left: 80vw;
+  top: 56vh;
+  transform: translate(-50%,-50%);
+}
 
+#text {
+  width: 300px;
+  text-align: center;
+  font-family: corndog;
+  font-size: 2em;
+  color: rgb(0, 193, 228);
+  position: fixed;
+  left: 50vw;
+  top: 90vh;
+  transform: translate(-50%,-50%);
+}
+
+#text::selection {
+  background: none;
+}
+
+.draggable::selection {
+  background: none;
 }
